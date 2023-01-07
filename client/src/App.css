@@ -1,13 +1,24 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+input,
+button,
+textarea,
+select,
+option {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
 }
 
 .page {
-  height: 100vh;
-  background: #e6f4fd;
+    height: 100vh;
+    background: #e6f4fd;
 
-  display: flex;
+    display: flex;
 }

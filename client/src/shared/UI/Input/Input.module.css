@@ -1,0 +1,7 @@
+.Input {
+    width: 100%;
+    padding: 5px 10px;
+    background: lightblue;
+    outline: 2px solid coral;
+    border-radius: 3px;
+}

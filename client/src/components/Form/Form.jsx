@@ -11,7 +11,7 @@ export const Form = () => {
         //  Вот тут путь укажешь, который у тебя на загрузку файлов
         fetch('/upload', {
             method: 'post',
-            body: formData
+            body: formData,
         })
             .then((res) => res.json())
             .then((res) => console.log(res));
@@ -20,7 +20,7 @@ export const Form = () => {
     };
 
     return (
-        <form onSubmit={sendForm} className={classes.form} encType='multipart-formdata'>
+        <form onSubmit={sendForm} className={classes.form} encType="multipart-formdata">
             <h1 className={classes.title}>Добавьте ваш пост</h1>
 
             <input
